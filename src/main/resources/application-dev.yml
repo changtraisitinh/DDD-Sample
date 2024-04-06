@@ -1,0 +1,30 @@
+server:
+  port: 8088
+
+spring:
+  cloud:
+    config:
+      enabled: false
+      import-check:
+        enabled: false
+
+  datasource:
+    url: jdbc:...
+    username: username
+    password: password
+    datasource:
+
+  data:
+    servlet:
+      multipart:
+        max-file-size: 32MB
+        max-request-size: 32MB
+
+
+
+api:
+  gw:
+    ip: 10.0.114.132
+    port: 8049
+    timeout: 60000
+    whitelist: 10.0.114.198;10.0.114.90
