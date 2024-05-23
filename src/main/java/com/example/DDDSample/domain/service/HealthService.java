@@ -7,12 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class HealthService {
 
-    private final HealthRepository healthRepository;
-
     @Autowired
-    public HealthService(HealthRepository healthRepository) {
-        this.healthRepository = healthRepository;
-    }
+    private HealthRepository healthRepository;
 
     public boolean isJpaWorking() {
         return healthRepository.count() > 0;
