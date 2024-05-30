@@ -16,7 +16,7 @@ public class RateLimitConfig {
     public static Bucket bucket() {
         // bucket with capacity 20 tokens and with refilling speed 1 token per each 6 second
         return Bucket.builder()
-                .addLimit(limit -> limit.capacity(20).refillGreedy(20, Duration.ofMinutes(1)))
+                .addLimit(limit -> limit.capacity(10).refillGreedy(10, Duration.ofMinutes(1)))
                 .build();
     }
 

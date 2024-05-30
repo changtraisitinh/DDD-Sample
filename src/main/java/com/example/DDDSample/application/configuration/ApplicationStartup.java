@@ -26,7 +26,8 @@ public class ApplicationStartup implements ApplicationListener<ContextRefreshedE
         // You can add your JPA check logic here (e.g., ProductService.isJpaWorking())
 
 
-        log.info(">>>>> Test log message ");
+        log.info(">>>>> Test log message 1 <<<<<");
+        log.info(">>>>> Test log message 2 <<<<<");
 
 
 
