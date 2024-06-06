@@ -1,4 +1,4 @@
-package com.example.DDDSample.domain.service.openapi;
+package com.example.DDDSample.infastructure.repository.api.vietqr;
 
 import com.example.DDDSample.infastructure.repository.api.OpenApiClient;
 import org.springframework.beans.factory.annotation.Autowired;

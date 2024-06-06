@@ -1,6 +1,6 @@
 package com.example.DDDSample.application.controller;
 
-import com.example.DDDSample.domain.service.openapi.VietQRService;
+import com.example.DDDSample.infastructure.repository.api.vietqr.VietQRService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
